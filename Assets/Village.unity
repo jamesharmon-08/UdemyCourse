@@ -10145,7 +10145,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1132362991
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 12ff971a94504e64b972d3df8684bc9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10280,6 +10280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c63db7a74cd04cd5bb360f648daab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allEnemies: []
+  clonedEnemies: []
 --- !u!1 &820836856
 GameObject:
   m_ObjectHideFlags: 0
@@ -10350,6 +10352,7 @@ GameObject:
   - component: {fileID: 828222091}
   - component: {fileID: 828222090}
   - component: {fileID: 828222092}
+  - component: {fileID: 828222093}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -10370,7 +10373,7 @@ Transform:
   m_Children:
   - {fileID: 525410878}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &828222089
 MonoBehaviour:
@@ -10392,8 +10395,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 96cc55856354e7d4a82c7933a5b84e0d, type: 3}
   - {fileID: 21300000, guid: 0a55318f321810a45b36835f9e397df5, type: 3}
   weaponAnim: {fileID: 641516793}
-  knockbackTime: 0
-  knockbackForce: 0
+  knockbackTime: 0.2
+  knockbackForce: 5
   HitEffect: {fileID: 895426058961005783, guid: 2e1a53847f3fb4195bd500c562b58387, type: 3}
 --- !u!50 &828222090
 Rigidbody2D:
@@ -10451,6 +10454,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &828222093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828222087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b80681e11e64d94b71a25189ae5aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 100
+  invincibilityLength: 2
+  deathEffect: {fileID: 2704771225055045382, guid: 6f3ea9606ff4a4c139fbcca629fc26cf, type: 3}
 --- !u!1 &831874132
 GameObject:
   m_ObjectHideFlags: 0
@@ -32516,9 +32535,10 @@ GameObject:
   - component: {fileID: 1041151915}
   - component: {fileID: 1041151914}
   - component: {fileID: 1041151918}
+  - component: {fileID: 1041151919}
   m_Layer: 0
   m_Name: EnemyBlog
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32575,7 +32595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a22bf388db3f40f0a428760c36773ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theRB: {fileID: 1041151914}
   anim: {fileID: 1041151915}
   area: {fileID: 1046633303}
   moveSpeed: 7
@@ -32585,6 +32604,10 @@ MonoBehaviour:
   chaseSpeed: 10
   rangeToChase: 10
   waitAfterHitting: 1
+  damageToDeal: 10
+  knockbackTime: 0.2
+  knockbackForce: 5
+  waitAfterKnocking: 1
 --- !u!4 &1041151917
 Transform:
   m_ObjectHideFlags: 0
@@ -32593,7 +32616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041151913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.880001, y: 0, z: 0}
+  m_LocalPosition: {x: 9.51, y: 7.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1062498810}
@@ -32616,6 +32639,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.76
+--- !u!114 &1041151919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041151913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31984c25050a549c4acc625982d9f7ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 30
+  deathEffect: {fileID: 7337511707188014505, guid: da8f30dde6c5f482f8233a104c1ae6c8, type: 3}
 --- !u!1 &1046633300
 GameObject:
   m_ObjectHideFlags: 0
@@ -32662,6 +32699,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c63db7a74cd04cd5bb360f648daab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allEnemies:
+  - {fileID: 1041151913}
+  clonedEnemies: []
 --- !u!61 &1046633303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32756,8 +32796,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 549273885
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 4547611644144318047, guid: 617b58cfe7abab64bb3b1719c59945a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -32780,6 +32820,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1132220180}
   - component: {fileID: 1132220181}
+  - component: {fileID: 1132220183}
+  - component: {fileID: 1132220182}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -32839,7 +32881,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1132362991
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -1
   m_Sprite: {fileID: -7855203551248514480, guid: 7613a4a617b1ad34892d0b6c6718d508, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -32852,6 +32894,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1132220182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132220179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf36aa62c2b243a6a3beb7fe22d1822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToDeal: 10
+  hitEffect: {fileID: 895426058961005783, guid: cf8e5027eab234ce4b69ebb8f9c10921, type: 3}
+--- !u!61 &1132220183
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132220179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.07186878, y: -0.08845383}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.85626245, y: 0.31448305}
+  m_EdgeRadius: 0
 --- !u!1 &1173018389
 GameObject:
   m_ObjectHideFlags: 0
@@ -32897,6 +32979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c63db7a74cd04cd5bb360f648daab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allEnemies: []
+  clonedEnemies: []
 --- !u!61 &1173018392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34643,7 +34727,7 @@ Transform:
   - {fileID: 1046633301}
   - {fileID: 1173018390}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1956183657
 GameObject:
@@ -34861,7 +34945,7 @@ Transform:
   - {fileID: 298211274}
   - {fileID: 409004203}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2046173966
 GameObject:
