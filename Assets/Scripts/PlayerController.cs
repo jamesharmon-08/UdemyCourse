@@ -26,6 +26,9 @@ public class PlayerController : MonoBehaviour
 
     public GameObject HitEffect;
 
+    public float dashSpeed, dashLength;
+    private float dashCounter, activeMoveSpeed;
+
     private void Awake()
     {
         instance = this;
@@ -36,6 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         theRB = GetComponent<Rigidbody2D>();
+        activeMoveSpeed = moveSpeed;
     }
 
     // Update is called once per frame
@@ -45,7 +49,7 @@ public class PlayerController : MonoBehaviour
         {
             //transform.position = new Vector3(transform.position.x + (Input.GetAxisRaw("Horizontal")) * moveSpeed*Time.deltaTime, transform.position.y+(Input.GetAxisRaw("Vertical")) * moveSpeed*Time.deltaTime,transform.position.z);
 
-            theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * moveSpeed;
+            theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * activeMoveSpeed;
 
             anim.SetFloat("Speed",theRB.velocity.magnitude);
 
@@ -87,6 +91,22 @@ public class PlayerController : MonoBehaviour
             {
                 weaponAnim.SetTrigger("Attack");
             }
+            if(dashCounter <= 0)
+            {
+                if(Input.GetKeyDown(KeyCode.Space))
+                {
+                    activeMoveSpeed = dashSpeed;
+                    dashCounter=dashLength;
+                }
+            } else
+            {
+                dashCounter -= Time.deltaTime;
+                if(dashCounter <= 0)
+                {
+                    activeMoveSpeed = moveSpeed;
+                }
+            }
+
         } else 
         {
             knockbackCounter -= Time.deltaTime;

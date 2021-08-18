@@ -59,7 +59,10 @@ public class AreaActivation : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            DespawnEnemies();
+            if(PlayerHealthController.instance.currentHealth>0)
+            {
+                DespawnEnemies();
+            }
         }
     }
 }

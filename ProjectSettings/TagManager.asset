@@ -48,3 +48,6 @@ TagManager:
   - name: Player
     uniqueID: 3162604305
     locked: 0
+  - name: Pickups
+    uniqueID: 4123625733
+    locked: 0
