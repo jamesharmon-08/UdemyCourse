@@ -11,8 +11,8 @@ public class EnemyHealthController : MonoBehaviour
     public GameObject deathEffect;
 
 
-    public GameObject healthToDrop;
-    public float healthDropChance;
+    public GameObject healthToDrop, coinToDrop;
+    public float healthDropChance, coinDropChance;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +43,10 @@ public class EnemyHealthController : MonoBehaviour
             if(Random.Range(0f, 100f) < healthDropChance && healthToDrop != null)
             {
                 Instantiate(healthToDrop, transform.position, transform.rotation);
+            }
+            if(Random.Range(0f, 100f) < coinDropChance && coinToDrop != null)
+            {
+                Instantiate(coinToDrop, transform.position, transform.rotation);
             }            
 
         }

@@ -26,8 +26,16 @@ public class PlayerController : MonoBehaviour
 
     public GameObject HitEffect;
 
-    public float dashSpeed, dashLength;
+    public float dashSpeed, dashLength, dashStamCost;
     private float dashCounter, activeMoveSpeed;
+
+    public float totalStamina, stamRefillSpeed;
+    [HideInInspector]
+    public float currentStamina;
+
+    private bool isSpinning;
+    public float spinCost, spinCooldown;
+    private float spinCounter;
 
     private void Awake()
     {
@@ -40,6 +48,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         theRB = GetComponent<Rigidbody2D>();
         activeMoveSpeed = moveSpeed;
+        currentStamina = totalStamina;
     }
 
     // Update is called once per frame
@@ -87,15 +96,16 @@ public class PlayerController : MonoBehaviour
                 
             }
 
-            if(Input.GetMouseButtonDown(0))
+            if(Input.GetMouseButtonDown(0) && !isSpinning)   // Sword attack
             {
                 weaponAnim.SetTrigger("Attack");
             }
-            if(dashCounter <= 0)
+            if(dashCounter <= 0)    // Dash fun
             {
-                if(Input.GetKeyDown(KeyCode.Space))
+                if(Input.GetKeyDown(KeyCode.Space) && currentStamina >= dashStamCost)
                 {
                     activeMoveSpeed = dashSpeed;
+                    currentStamina -= dashStamCost;
                     dashCounter=dashLength;
                 }
             } else
@@ -105,8 +115,32 @@ public class PlayerController : MonoBehaviour
                 {
                     activeMoveSpeed = moveSpeed;
                 }
+            }  
+
+            if(spinCounter <=0)
+            {
+                if(Input.GetMouseButtonDown(1) && currentStamina >= spinCost)
+                {
+                    weaponAnim.SetTrigger("SpinAttack");
+                    currentStamina -= spinCost;
+                    spinCounter = spinCooldown;
+                    isSpinning = true;
+                }
+            } else 
+            {
+                spinCounter -= Time.deltaTime;
+                if(spinCounter <= 0)
+                {
+                    isSpinning = false;
+                }
             }
 
+            currentStamina += Time.deltaTime;
+            if (currentStamina > totalStamina)
+            {
+                currentStamina = totalStamina;
+            }
+           
         } else 
         {
             knockbackCounter -= Time.deltaTime;
@@ -116,6 +150,7 @@ public class PlayerController : MonoBehaviour
                 isKnockingBack = false;
             }
         }
+        UIManager.instance.UpdateStamina(); 
     }
 
     public void KnockBack(Vector3 knockerPosition)
