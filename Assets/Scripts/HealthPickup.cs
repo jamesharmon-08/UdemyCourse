@@ -30,6 +30,7 @@ public class HealthPickup : MonoBehaviour
         {
             PlayerHealthController.instance.RestoreHealth(healthToRestore);
             Destroy(gameObject);
+            AudioManager.instance.PlaySFX(7);
         }
 
     }

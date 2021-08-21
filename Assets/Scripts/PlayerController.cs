@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
     public float spinCost, spinCooldown;
     private float spinCounter;
 
+    public bool canMove;
+
     private void Awake()
     {
         instance = this;
@@ -54,103 +56,113 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!isKnockingBack)
+        if(canMove && !DialogManager.instance.dialogBox.activeInHierarchy)
         {
-            //transform.position = new Vector3(transform.position.x + (Input.GetAxisRaw("Horizontal")) * moveSpeed*Time.deltaTime, transform.position.y+(Input.GetAxisRaw("Vertical")) * moveSpeed*Time.deltaTime,transform.position.z);
-
-            theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * activeMoveSpeed;
-
-            anim.SetFloat("Speed",theRB.velocity.magnitude);
-
-            if(theRB.velocity != Vector2.zero)  // Movement direction
+            if(!isKnockingBack)
             {
-                if (Input.GetAxisRaw("Horizontal") != 0)
-                {
-                    theSR.sprite= playerDirectionSprites[1];
-                    if (Input.GetAxisRaw("Horizontal")<0 )
-                    {
-                        theSR.flipX = true;
+                //transform.position = new Vector3(transform.position.x + (Input.GetAxisRaw("Horizontal")) * moveSpeed*Time.deltaTime, transform.position.y+(Input.GetAxisRaw("Vertical")) * moveSpeed*Time.deltaTime,transform.position.z);
 
-                        weaponAnim.SetFloat("dirX",-1f);
-                        weaponAnim.SetFloat("dirY",0f);
+                theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * activeMoveSpeed;
+
+                anim.SetFloat("Speed",theRB.velocity.magnitude);
+
+                if(theRB.velocity != Vector2.zero)  // Movement direction
+                {
+                    if (Input.GetAxisRaw("Horizontal") != 0)
+                    {
+                        theSR.sprite= playerDirectionSprites[1];
+                        if (Input.GetAxisRaw("Horizontal")<0 )
+                        {
+                            theSR.flipX = true;
+
+                            weaponAnim.SetFloat("dirX",-1f);
+                            weaponAnim.SetFloat("dirY",0f);
+                        } else
+                        {
+                            theSR.flipX = false;
+                            weaponAnim.SetFloat("dirX",1f);
+                            weaponAnim.SetFloat("dirY",0f);
+                        }
                     } else
                     {
-                        theSR.flipX = false;
-                        weaponAnim.SetFloat("dirX",1f);
-                        weaponAnim.SetFloat("dirY",0f);
+                        if(Input.GetAxisRaw("Vertical") < 0)
+                        {
+                            theSR.sprite = playerDirectionSprites[0];
+                            weaponAnim.SetFloat("dirX",0f);
+                            weaponAnim.SetFloat("dirY",-1f);
+                        } else
+                        {
+                            theSR.sprite = playerDirectionSprites[2];
+                            weaponAnim.SetFloat("dirX",0f);
+                            weaponAnim.SetFloat("dirY",1f);
+                        }
+                    }
+                    
+                }
+
+                if(Input.GetMouseButtonDown(0) && !isSpinning)   // Sword attack
+                {
+                    weaponAnim.SetTrigger("Attack");
+                    AudioManager.instance.PlaySFX(1);
+                }
+                if(dashCounter <= 0)    // Dash fun
+                {
+                    if(Input.GetKeyDown(KeyCode.Space) && currentStamina >= dashStamCost)
+                    {
+                        activeMoveSpeed = dashSpeed;
+                        currentStamina -= dashStamCost;
+                        dashCounter=dashLength;
                     }
                 } else
                 {
-                    if(Input.GetAxisRaw("Vertical") < 0)
+                    dashCounter -= Time.deltaTime;
+                    if(dashCounter <= 0)
                     {
-                        theSR.sprite = playerDirectionSprites[0];
-                        weaponAnim.SetFloat("dirX",0f);
-                        weaponAnim.SetFloat("dirY",-1f);
-                    } else
+                        activeMoveSpeed = moveSpeed;
+                    }
+                }  
+
+                if(spinCounter <=0)
+                {
+                    if(Input.GetMouseButtonDown(1) && currentStamina >= spinCost)
                     {
-                        theSR.sprite = playerDirectionSprites[2];
-                        weaponAnim.SetFloat("dirX",0f);
-                        weaponAnim.SetFloat("dirY",1f);
+                        weaponAnim.SetTrigger("SpinAttack");
+                        AudioManager.instance.PlaySFX(1);
+                        currentStamina -= spinCost;
+                        spinCounter = spinCooldown;
+                        isSpinning = true;
+                    }
+                } else 
+                {
+                    spinCounter -= Time.deltaTime;
+                    if(spinCounter <= 0)
+                    {
+                        isSpinning = false;
                     }
                 }
-                
-            }
 
-            if(Input.GetMouseButtonDown(0) && !isSpinning)   // Sword attack
-            {
-                weaponAnim.SetTrigger("Attack");
-            }
-            if(dashCounter <= 0)    // Dash fun
-            {
-                if(Input.GetKeyDown(KeyCode.Space) && currentStamina >= dashStamCost)
+                currentStamina += Time.deltaTime;
+                if (currentStamina > totalStamina)
                 {
-                    activeMoveSpeed = dashSpeed;
-                    currentStamina -= dashStamCost;
-                    dashCounter=dashLength;
+                    currentStamina = totalStamina;
                 }
-            } else
-            {
-                dashCounter -= Time.deltaTime;
-                if(dashCounter <= 0)
-                {
-                    activeMoveSpeed = moveSpeed;
-                }
-            }  
-
-            if(spinCounter <=0)
-            {
-                if(Input.GetMouseButtonDown(1) && currentStamina >= spinCost)
-                {
-                    weaponAnim.SetTrigger("SpinAttack");
-                    currentStamina -= spinCost;
-                    spinCounter = spinCooldown;
-                    isSpinning = true;
-                }
+            
             } else 
             {
-                spinCounter -= Time.deltaTime;
-                if(spinCounter <= 0)
+                knockbackCounter -= Time.deltaTime;
+                theRB.velocity = knockbackDir * knockbackForce;
+                if(knockbackCounter <= 0)
                 {
-                    isSpinning = false;
+                    isKnockingBack = false;
                 }
             }
-
-            currentStamina += Time.deltaTime;
-            if (currentStamina > totalStamina)
-            {
-                currentStamina = totalStamina;
-            }
-           
-        } else 
+        
+          UIManager.instance.UpdateStamina(); 
+        } else
         {
-            knockbackCounter -= Time.deltaTime;
-            theRB.velocity = knockbackDir * knockbackForce;
-            if(knockbackCounter <= 0)
-            {
-                isKnockingBack = false;
-            }
+            theRB.velocity = Vector2.zero;
+            anim.SetFloat("Speed",0f);
         }
-        UIManager.instance.UpdateStamina(); 
     }
 
     public void KnockBack(Vector3 knockerPosition)

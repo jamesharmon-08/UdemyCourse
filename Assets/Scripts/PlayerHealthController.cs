@@ -43,12 +43,15 @@ public class PlayerHealthController : MonoBehaviour
 
             invCount = invincibilityLength;
         }
+        AudioManager.instance.PlaySFX(8);
         if(currentHealth <= 0)
         {
             currentHealth = 0;
             gameObject.SetActive(false);
             Instantiate(deathEffect, transform.position, transform.rotation);
+            AudioManager.instance.PlaySFX(5);
         }
+
         UIManager.instance.UpdateHealth();
     }
 

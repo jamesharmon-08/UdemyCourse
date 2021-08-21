@@ -24,6 +24,7 @@ public class CoinPickUp : MonoBehaviour
         {
             GameManager.instance.GetCoins(coinValue);
             Destroy(gameObject);
+            AudioManager.instance.PlaySFX(4);
         }
     }
 }

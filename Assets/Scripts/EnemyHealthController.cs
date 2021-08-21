@@ -37,6 +37,7 @@ public class EnemyHealthController : MonoBehaviour
             if (deathEffect != null)
             {
                 Instantiate(deathEffect, transform.position, transform.rotation);
+                AudioManager.instance.PlaySFX(5);
                 
             }
             Destroy(gameObject);
@@ -50,6 +51,7 @@ public class EnemyHealthController : MonoBehaviour
             }            
 
         }
+        AudioManager.instance.PlaySFX(8);
     }
 
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class UIManager : MonoBehaviour
     public TMP_Text healthText;
     public TMP_Text staminaText;
     public TMP_Text coinsText;
+
+    public string mainMenuScene;
+
+    public GameObject pauseScreen;
 
     private void Awake()
     {
@@ -56,5 +61,20 @@ public class UIManager : MonoBehaviour
     {
         coinsText.text = "Coins: "+GameManager.instance.currentCoins;
         
+    }
+    public void Resume()
+    {
+        GameManager.instance.PauseUnpause();
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(mainMenuScene);
+        Time.timeScale = 1f;
+    }
+
+    public void QuitGame()
+    {
+        GameManager.instance.Quit();
     }
 }
