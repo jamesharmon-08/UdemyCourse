@@ -9,9 +9,17 @@ public class GameManager : MonoBehaviour
 
     public int currentCoins;
 
-    private void Awake() {
-        instance = this;
-    }
+     private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        } else
+        {
+            Destroy(gameObject);
+        }
+    }  
 
     void Start()
     {

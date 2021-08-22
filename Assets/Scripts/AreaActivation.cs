@@ -23,12 +23,6 @@ public class AreaActivation : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
@@ -37,6 +31,7 @@ public class AreaActivation : MonoBehaviour
             SpawnEnemies();
         }
     }
+
     private void SpawnEnemies()
     {
         foreach(GameObject enemy in allEnemies)
@@ -46,6 +41,7 @@ public class AreaActivation : MonoBehaviour
             clonedEnemies.Add(newEnemy);
         }
     }
+
     private void DespawnEnemies()
     {
         foreach(GameObject enemy in clonedEnemies)
@@ -55,7 +51,7 @@ public class AreaActivation : MonoBehaviour
         clonedEnemies.Clear();
     }
 
-        private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if(other.tag == "Player")
         {

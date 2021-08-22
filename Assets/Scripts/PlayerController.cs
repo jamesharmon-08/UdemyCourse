@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public float moveSpeed;
 
+    [HideInInspector]
     public Rigidbody2D theRB;
 
     private Animator anim;
@@ -41,7 +42,15 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        } else
+        {
+            Destroy(gameObject);
+        }
+        
     }
 
     // Start is called before the first frame update
@@ -173,5 +182,10 @@ public class PlayerController : MonoBehaviour
         knockbackDir = transform.position - knockerPosition;
         knockbackDir.Normalize();
         Instantiate(HitEffect, transform.position, transform.rotation);
+    }
+
+    public void DoAtLevelStart()
+    {
+        canMove = true;
     }
 }

@@ -26,6 +26,12 @@ public class EnemyController : MonoBehaviour
     private float knockbackCounter, knockwaitCounter;
     private Vector2 knockbackDir;
 
+    public bool shouldShoot;
+    public GameObject bullet;
+    public float timeBetweenShots;
+    private float shotCounter;
+    public Transform shotPoint;
+
 
 
     // Start is called before the first frame update
@@ -33,6 +39,7 @@ public class EnemyController : MonoBehaviour
     {
         waitCounter = Random.Range(waitTime * 0.6f, waitTime * 1.25f);
         theRB = GetComponent<Rigidbody2D>();
+        shotCounter = timeBetweenShots;
     }
 
     // Update is called once per frame
@@ -101,6 +108,15 @@ public class EnemyController : MonoBehaviour
                     anim.SetBool("isMoving", false);
                 }
             } 
+            if(shouldShoot)
+            {
+                shotCounter -= Time.deltaTime;
+                if(shotCounter <= 0)
+                {
+                    shotCounter = timeBetweenShots;
+                    Instantiate(bullet, shotPoint.position, shotPoint.rotation);
+                }
+            }
         } else 
         {
             if(knockbackCounter > 0)

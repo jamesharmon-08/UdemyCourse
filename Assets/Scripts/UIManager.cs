@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     public string mainMenuScene;
 
     public GameObject pauseScreen;
+    public GameObject blackoutScreen;
 
     private void Awake()
     {

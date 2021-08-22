@@ -17,7 +17,10 @@ public class PlayerHealthController : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if(instance == null)
+        {
+            instance = this;
+        }
     }
     void Start()
     {
