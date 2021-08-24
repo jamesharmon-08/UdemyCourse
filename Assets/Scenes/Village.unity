@@ -10290,6 +10290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 9142793457689498864, guid: a0481772ca0e049daa920d391ffa5116, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 9142793457689498867, guid: a0481772ca0e049daa920d391ffa5116, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -34718,9 +34722,10 @@ GameObject:
   - component: {fileID: 2130051701}
   - component: {fileID: 2130051700}
   - component: {fileID: 2130051699}
+  - component: {fileID: 2130051703}
   m_Layer: 0
   m_Name: DialogActivator
-  m_TagString: Untagged
+  m_TagString: BirthdayBoy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34740,8 +34745,8 @@ MonoBehaviour:
   lines:
   - Hello I am your first character to talk to.
   - I dont have a name but I am sure glad to meet you.
-  - I am not going to make the final cut.
   - But at least I am first!!
+  - Here have 200 gold coins!! Happy Birthday!!!
 --- !u!61 &2130051700
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34806,7 +34811,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1132362991
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: -1
   m_Sprite: {fileID: -1940738496428130850, guid: c25ba3653b932234eb497d7970ab030c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -34833,6 +34838,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2130051703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130051698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4a97a4e2e124fa59b7a71307471be9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3079102733230452396
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -20,13 +20,25 @@ public class DamageEnemy : MonoBehaviour
         
     }
 
+    void SpawnHitEffect()
+    {
+        Instantiate(hitEffect, transform.position, transform.rotation);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Enemy")
         {
             other.GetComponent<EnemyHealthController>().takeDamage(damageToDeal);
-            Instantiate(hitEffect, transform.position, transform.rotation);
+            SpawnHitEffect();
           
+        }
+
+        if(other.tag == "Breakable")
+        {
+            other.GetComponent<BreakableObject>().Break();
+            SpawnHitEffect();
+
         }
     }
 }

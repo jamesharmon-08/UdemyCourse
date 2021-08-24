@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canMove && !DialogManager.instance.dialogBox.activeInHierarchy)
+        if(canMove && !GameManager.instance.dialogActive)
         {
             if(!isKnockingBack)
             {

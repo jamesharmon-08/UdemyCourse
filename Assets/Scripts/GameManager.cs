@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
    public static GameManager instance;
+
+   public bool dialogActive;
     // Start is called before the first frame update
 
     public int currentCoins;
