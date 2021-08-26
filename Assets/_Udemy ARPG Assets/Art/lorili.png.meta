@@ -1,0 +1,4248 @@
+fileFormatVersion: 2
+guid: 133e37a9e9c2e4b88b824cdd4c8040ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2551462451324485237
+    second: lorili_0
+  - first:
+      213: -2038926384133413633
+    second: lorili_1
+  - first:
+      213: 6299329069054158573
+    second: lorili_2
+  - first:
+      213: -4525609181638581241
+    second: lorili_3
+  - first:
+      213: 5745650099526303721
+    second: lorili_4
+  - first:
+      213: 8236536572175443068
+    second: lorili_5
+  - first:
+      213: -4373057627362890117
+    second: lorili_6
+  - first:
+      213: -2037956158443528253
+    second: lorili_7
+  - first:
+      213: -3629266697416427627
+    second: lorili_8
+  - first:
+      213: -722212806364889385
+    second: lorili_9
+  - first:
+      213: -6393807437399875695
+    second: lorili_10
+  - first:
+      213: 4143497874810002072
+    second: lorili_11
+  - first:
+      213: -3401737406332972570
+    second: lorili_12
+  - first:
+      213: -8418820037398498366
+    second: lorili_13
+  - first:
+      213: -5862266693572047671
+    second: lorili_14
+  - first:
+      213: 4693021823955216584
+    second: lorili_15
+  - first:
+      213: 2535344166831255665
+    second: lorili_16
+  - first:
+      213: -6025687863854322605
+    second: lorili_17
+  - first:
+      213: 204539857697386828
+    second: lorili_18
+  - first:
+      213: -5099499373555655599
+    second: lorili_19
+  - first:
+      213: 6370879501084734544
+    second: lorili_20
+  - first:
+      213: 624478346269239275
+    second: lorili_21
+  - first:
+      213: -8066736378408654489
+    second: lorili_22
+  - first:
+      213: 8695871081196382856
+    second: lorili_23
+  - first:
+      213: -4925056197403432279
+    second: lorili_24
+  - first:
+      213: -4173466204689665232
+    second: lorili_25
+  - first:
+      213: -6536348382517157732
+    second: lorili_26
+  - first:
+      213: 2479403297664162385
+    second: lorili_27
+  - first:
+      213: -5132478886063985177
+    second: lorili_28
+  - first:
+      213: -5363021099642478417
+    second: lorili_29
+  - first:
+      213: -1831503799634873646
+    second: lorili_30
+  - first:
+      213: 8529058178650432407
+    second: lorili_31
+  - first:
+      213: -7423648588255405256
+    second: lorili_32
+  - first:
+      213: -2669734933279345718
+    second: lorili_33
+  - first:
+      213: -9007036357484117364
+    second: lorili_34
+  - first:
+      213: 2827908228773580408
+    second: lorili_35
+  - first:
+      213: -7917517067418451393
+    second: lorili_36
+  - first:
+      213: 368414049144463518
+    second: lorili_37
+  - first:
+      213: -638639931041680276
+    second: lorili_38
+  - first:
+      213: 6500138044443213059
+    second: lorili_39
+  - first:
+      213: -7177896374649139909
+    second: lorili_40
+  - first:
+      213: 4581282442150051056
+    second: lorili_41
+  - first:
+      213: -5700676500475772911
+    second: lorili_42
+  - first:
+      213: -5607235993526433026
+    second: lorili_43
+  - first:
+      213: -1249124813288830879
+    second: lorili_44
+  - first:
+      213: -9189672772365535465
+    second: lorili_45
+  - first:
+      213: -5601477375422626339
+    second: lorili_46
+  - first:
+      213: 1814608161580077368
+    second: lorili_47
+  - first:
+      213: 849616399735222559
+    second: lorili_48
+  - first:
+      213: -2336530077938845992
+    second: lorili_49
+  - first:
+      213: 3869970637998373754
+    second: lorili_50
+  - first:
+      213: 5130930292909119005
+    second: lorili_51
+  - first:
+      213: -4767951312690588739
+    second: lorili_52
+  - first:
+      213: -8534487784196425760
+    second: lorili_53
+  - first:
+      213: -1346875005005425478
+    second: lorili_54
+  - first:
+      213: -5204057770315631030
+    second: lorili_55
+  - first:
+      213: 226611427825408676
+    second: lorili_56
+  - first:
+      213: 1665908267082576880
+    second: lorili_57
+  - first:
+      213: 1465446440564592945
+    second: lorili_58
+  - first:
+      213: 8948134904950639544
+    second: lorili_59
+  - first:
+      213: -799199363179177479
+    second: lorili_60
+  - first:
+      213: 3395132060986208488
+    second: lorili_61
+  - first:
+      213: -6185604700189917875
+    second: lorili_62
+  - first:
+      213: 1396083210751558764
+    second: lorili_63
+  - first:
+      213: 1171998147577720642
+    second: lorili_64
+  - first:
+      213: -1239578123986159637
+    second: lorili_65
+  - first:
+      213: -75927919768598705
+    second: lorili_66
+  - first:
+      213: 4993442382931627018
+    second: lorili_67
+  - first:
+      213: 5751389324270474275
+    second: lorili_68
+  - first:
+      213: -8707875700107426084
+    second: lorili_69
+  - first:
+      213: -2616840217940442741
+    second: lorili_70
+  - first:
+      213: 1273934467256035128
+    second: lorili_71
+  - first:
+      213: 3634383044161424627
+    second: lorili_72
+  - first:
+      213: -1509504154293083566
+    second: lorili_73
+  - first:
+      213: 2574943236783754216
+    second: lorili_74
+  - first:
+      213: -4640588089561547739
+    second: lorili_75
+  - first:
+      213: -1039810082993047433
+    second: lorili_76
+  - first:
+      213: -3300423503376704968
+    second: lorili_77
+  - first:
+      213: 2556464190261983848
+    second: lorili_78
+  - first:
+      213: 7895893890804174871
+    second: lorili_79
+  - first:
+      213: 8697508571367240678
+    second: lorili_80
+  - first:
+      213: -5593804335148327518
+    second: lorili_81
+  - first:
+      213: 8946637211999832367
+    second: lorili_82
+  - first:
+      213: 8516370179829229413
+    second: lorili_83
+  - first:
+      213: 7618671958651707555
+    second: lorili_84
+  - first:
+      213: -9039375828343589219
+    second: lorili_85
+  - first:
+      213: -8499424096948185898
+    second: lorili_86
+  - first:
+      213: 1016864353114032108
+    second: lorili_87
+  - first:
+      213: 6469998746538122646
+    second: lorili_88
+  - first:
+      213: 5609015061992575867
+    second: lorili_89
+  - first:
+      213: -1358089461627585523
+    second: lorili_90
+  - first:
+      213: 5768808441281681513
+    second: lorili_91
+  - first:
+      213: -149631502407184280
+    second: lorili_92
+  - first:
+      213: 4488321609847186485
+    second: lorili_93
+  - first:
+      213: 2450687793911194100
+    second: lorili_94
+  - first:
+      213: 1846083158090441535
+    second: lorili_95
+  - first:
+      213: 1167912114884802196
+    second: lorili_96
+  - first:
+      213: -9117086259286057369
+    second: lorili_97
+  - first:
+      213: -1566396721816139617
+    second: lorili_98
+  - first:
+      213: -5009488355934667065
+    second: lorili_99
+  - first:
+      213: -3434276772970808641
+    second: lorili_100
+  - first:
+      213: -1163726434568821024
+    second: lorili_101
+  - first:
+      213: 9159594402929786879
+    second: lorili_102
+  - first:
+      213: -1124214923218832763
+    second: lorili_103
+  - first:
+      213: 864986893392870509
+    second: lorili_104
+  - first:
+      213: 8742056642620250291
+    second: lorili_105
+  - first:
+      213: -3558207047368258135
+    second: lorili_106
+  - first:
+      213: 3322364772231525187
+    second: lorili_107
+  - first:
+      213: 4977220870176250949
+    second: lorili_108
+  - first:
+      213: 838684852063111927
+    second: lorili_109
+  - first:
+      213: 6883686599569073939
+    second: lorili_110
+  - first:
+      213: 5594821287570274004
+    second: lorili_111
+  - first:
+      213: 5956231715220027278
+    second: lorili_112
+  - first:
+      213: -1535169341981658721
+    second: lorili_113
+  - first:
+      213: 6663506408834146456
+    second: lorili_114
+  - first:
+      213: -8381207059213098337
+    second: lorili_115
+  - first:
+      213: 3818661832053270249
+    second: lorili_116
+  - first:
+      213: 5287992011599599664
+    second: lorili_117
+  - first:
+      213: 422278558982044356
+    second: lorili_118
+  - first:
+      213: -8469855772613310230
+    second: lorili_119
+  - first:
+      213: 3447256148614701710
+    second: lorili_120
+  - first:
+      213: 2621186664270595538
+    second: lorili_121
+  - first:
+      213: 4650938775975664679
+    second: lorili_122
+  - first:
+      213: 8055846572275692702
+    second: lorili_123
+  - first:
+      213: 1859259008376182546
+    second: lorili_124
+  - first:
+      213: 2118064170225431386
+    second: lorili_125
+  - first:
+      213: 8657038364134109031
+    second: lorili_126
+  - first:
+      213: -1027430743708654609
+    second: lorili_127
+  - first:
+      213: -1317206274500082429
+    second: lorili_128
+  - first:
+      213: -6566847477558808375
+    second: lorili_129
+  - first:
+      213: 4517333536024906159
+    second: lorili_130
+  - first:
+      213: -2564199902987360414
+    second: lorili_131
+  - first:
+      213: 1235565059325406754
+    second: lorili_132
+  - first:
+      213: -4774600693839633639
+    second: lorili_133
+  - first:
+      213: 4773176179518263624
+    second: lorili_134
+  - first:
+      213: 1454849187641937952
+    second: lorili_135
+  - first:
+      213: 3771660167040872222
+    second: lorili_136
+  - first:
+      213: -5790881092598934443
+    second: lorili_137
+  - first:
+      213: 9182195202225485979
+    second: lorili_138
+  - first:
+      213: 8563056414985496082
+    second: lorili_139
+  - first:
+      213: -9059125996500920806
+    second: lorili_140
+  - first:
+      213: -7310163376358290145
+    second: lorili_141
+  - first:
+      213: 1295710663597576572
+    second: lorili_142
+  - first:
+      213: 4610087949428850991
+    second: lorili_143
+  - first:
+      213: -1257241654119272994
+    second: lorili_144
+  - first:
+      213: 2903364081777757218
+    second: lorili_145
+  - first:
+      213: 2307750389189955875
+    second: lorili_146
+  - first:
+      213: -777992295113644352
+    second: lorili_147
+  - first:
+      213: -7315048750955290711
+    second: lorili_148
+  - first:
+      213: 4696075315895549208
+    second: lorili_149
+  - first:
+      213: 5440740071680969951
+    second: lorili_150
+  - first:
+      213: 1909041653120579730
+    second: lorili_151
+  - first:
+      213: -4216544895425837524
+    second: lorili_152
+  - first:
+      213: 5325394126793020965
+    second: lorili_153
+  - first:
+      213: -874783972634532762
+    second: lorili_154
+  - first:
+      213: 2805709658217399177
+    second: lorili_155
+  - first:
+      213: -6822076719090191019
+    second: lorili_156
+  - first:
+      213: 5511390693579152656
+    second: lorili_157
+  - first:
+      213: 2168748892226716211
+    second: lorili_158
+  - first:
+      213: -7282290333222464988
+    second: lorili_159
+  - first:
+      213: 1453568069914373268
+    second: lorili_160
+  - first:
+      213: 7270982969364099738
+    second: lorili_161
+  - first:
+      213: 4120701523273915538
+    second: lorili_162
+  - first:
+      213: 936905772607630817
+    second: lorili_163
+  - first:
+      213: -4333148418168291124
+    second: lorili_164
+  - first:
+      213: -4519447767959656136
+    second: lorili_165
+  - first:
+      213: -8968101949183838652
+    second: lorili_166
+  - first:
+      213: -6350861002804964980
+    second: lorili_167
+  - first:
+      213: -4790633487266869688
+    second: lorili_168
+  - first:
+      213: -8184905240532108733
+    second: lorili_169
+  - first:
+      213: -2889164725130202421
+    second: lorili_170
+  - first:
+      213: -8172014939532443628
+    second: lorili_171
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lorili_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e71fcc49d986320800000000000000
+      internalID: 2551462451324485237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff46e8e914744b3e0800000000000000
+      internalID: -2038926384133413633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6e34cb966bb6750800000000000000
+      internalID: 6299329069054158573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704af205d6ec131c0800000000000000
+      internalID: -4525609181638581241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eff3f1e256acbf40800000000000000
+      internalID: 5745650099526303721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74e7049f5e0e4270800000000000000
+      internalID: 8236536572175443068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1278
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ee8b2e147cf43c0800000000000000
+      internalID: -4373057627362890117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf5724eba9b7b3e0800000000000000
+      internalID: -2037956158443528253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597b659da2142adc0800000000000000
+      internalID: -3629266697416427627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def160774f2af5f0800000000000000
+      internalID: -722212806364889385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f9783f202a447a0800000000000000
+      internalID: -6393807437399875695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ad2ab2d59a08930800000000000000
+      internalID: 4143497874810002072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e15d542ad99ac0d0800000000000000
+      internalID: -3401737406332972570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1214
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3fbe2e7c75a2b80800000000000000
+      internalID: -8418820037398498366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc807708b05aea0800000000000000
+      internalID: -5862266693572047671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8a104fb76f02140800000000000000
+      internalID: 4693021823955216584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170f55f361a5f2320800000000000000
+      internalID: 2535344166831255665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ca49330d4706ca0800000000000000
+      internalID: -6025687863854322605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c413678baeba6d200800000000000000
+      internalID: 204539857697386828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c53ea8650fa39b0800000000000000
+      internalID: -5099499373555655599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1150
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05439f0e629e96850800000000000000
+      internalID: 6370879501084734544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be72d4f4fb79aa800800000000000000
+      internalID: 624478346269239275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7692b34d0023d0090800000000000000
+      internalID: -8066736378408654489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a6d47fca0fda870800000000000000
+      internalID: 8695871081196382856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaaee68b7fa6abb0800000000000000
+      internalID: -4925056197403432279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033ff5b499ed416c0800000000000000
+      internalID: -4173466204689665232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90add3f6c93a45a0800000000000000
+      internalID: -6536348382517157732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1086
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a543ca92c986220800000000000000
+      internalID: 2479403297664162385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eda6fa65a5c5c8b0800000000000000
+      internalID: -5132478886063985177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0a2e079b8b295b0800000000000000
+      internalID: -5363021099642478417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d23cf97ff03596e0800000000000000
+      internalID: -1831503799634873646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793691f793d4d5670800000000000000
+      internalID: 8529058178650432407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bd4bfe0f6e9f890800000000000000
+      internalID: -7423648588255405256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3fe69193233fad0800000000000000
+      internalID: -2669734933279345718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8281297724900380800000000000000
+      internalID: -9007036357484117364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1022
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e04791d8fbe3720800000000000000
+      internalID: 2827908228773580408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324e6d0d245f1290800000000000000
+      internalID: -7917517067418451393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90e48130aedc1500800000000000000
+      internalID: 368414049144463518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6471eacd581327f0800000000000000
+      internalID: -638639931041680276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d3a0abc11253a50800000000000000
+      internalID: 6500138044443213059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d4972074df26c90800000000000000
+      internalID: -7177896374649139909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc7614cb1cf39f30800000000000000
+      internalID: 4581282442150051056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11089b12de023e0b0800000000000000
+      internalID: -5700676500475772911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 958
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa821282981f22b0800000000000000
+      internalID: -5607235993526433026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1680bc7b9973aaee0800000000000000
+      internalID: -1249124813288830879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717b2117d49b77080800000000000000
+      internalID: -9189672772365535465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd50c84410e8342b0800000000000000
+      internalID: -5601477375422626339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831518d3288ce2910800000000000000
+      internalID: 1814608161580077368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1170953d917acb00800000000000000
+      internalID: 849616399735222559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d67079064af29fd0800000000000000
+      internalID: -2336530077938845992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bb5119ac5e4b530800000000000000
+      internalID: 3869970637998373754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 894
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d169324aae9b43740800000000000000
+      internalID: 5130930292909119005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db358b4fa85d4ddb0800000000000000
+      internalID: -4767951312690588739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7bf03f3986f8980800000000000000
+      internalID: -8534487784196425760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab49cc9a150fe4de0800000000000000
+      internalID: -1346875005005425478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46b9b9b70977c7b0800000000000000
+      internalID: -5204057770315631030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad39994e5152300800000000000000
+      internalID: 226611427825408676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3f7d71ebe7e1710800000000000000
+      internalID: 1665908267082576880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131963ff5cf465410800000000000000
+      internalID: 1465446440564592945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb4bdb69492e2c70800000000000000
+      internalID: 8948134904950639544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99cfcd96ca8e4f0800000000000000
+      internalID: -799199363179177479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e07f9c0f9eed1f20800000000000000
+      internalID: 3395132060986208488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d71344c41582aa0800000000000000
+      internalID: -6185604700189917875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64cbbd8842ef5310800000000000000
+      internalID: 1396083210751558764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f29cf0b16c34010800000000000000
+      internalID: 1171998147577720642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7b57883422ccee0800000000000000
+      internalID: -1239578123986159637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4788a195ff32fef0800000000000000
+      internalID: -75927919768598705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c050114654c4540800000000000000
+      internalID: 4993442382931627018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 766
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3249d164e1a01df40800000000000000
+      internalID: 5751389324270474275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd647d2ef29672780800000000000000
+      internalID: -8707875700107426084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8144b7bfad1fabd0800000000000000
+      internalID: -2616840217940442741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8372cebf5aceda110800000000000000
+      internalID: 1273934467256035128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcc1f47f1cef6230800000000000000
+      internalID: 3634383044161424627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252626828f92d0be0800000000000000
+      internalID: -1509504154293083566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb4a413b390cb320800000000000000
+      internalID: 2574943236783754216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c76cc28b1599fb0800000000000000
+      internalID: -4640588089561547739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77874591d3ad191f0800000000000000
+      internalID: -1039810082993047433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 702
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a91e06f4a8232d0800000000000000
+      internalID: -3300423503376704968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a7295e2a26a7320800000000000000
+      internalID: 2556464190261983848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7105f81d8a9d39d60800000000000000
+      internalID: 7895893890804174871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3724bd6f1c3b870800000000000000
+      internalID: 8697508571367240678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad917c2890de52b0800000000000000
+      internalID: -5593804335148327518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f298a8b9427d82c70800000000000000
+      internalID: 8946637211999832367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56763709e89303670800000000000000
+      internalID: 8516370179829229413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a02aabe7c5fab960800000000000000
+      internalID: 7618671958651707555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96f358a39fad8280800000000000000
+      internalID: -9039375828343589219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d41202d0dafb0a80800000000000000
+      internalID: -8499424096948185898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce78e18ddb0ac1e00800000000000000
+      internalID: 1016864353114032108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d90a8949d0ac950800000000000000
+      internalID: 6469998746538122646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7312e52b7937dd40800000000000000
+      internalID: 5609015061992575867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7c7284d8172de0800000000000000
+      internalID: -1358089461627585523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689edf76bcee0050800000000000000
+      internalID: 5768808441281681513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860dfcbf0f66cedf0800000000000000
+      internalID: -149631502407184280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534a6a859b8b94e30800000000000000
+      internalID: 4488321609847186485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f166737097920220800000000000000
+      internalID: 2450687793911194100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 574
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33efcfe9da9e9910800000000000000
+      internalID: 1846083158090441535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496759071e1453010800000000000000
+      internalID: 1167912114884802196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 510
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ed8a00a5a997180800000000000000
+      internalID: -9117086259286057369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 510
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9800da0b7a034ae0800000000000000
+      internalID: -1566396721816139617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 510
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cefe06b1e8ba7ab0800000000000000
+      internalID: -5009488355934667065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 510
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba33b6787ff650d0800000000000000
+      internalID: -3434276772970808641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 510
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e62bc339fc99dfe0800000000000000
+      internalID: -1163726434568821024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff3941749a6d1f70800000000000000
+      internalID: 9159594402929786879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 446
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5823952db7cf560f0800000000000000
+      internalID: -1124214923218832763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 446
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cfc042ffc010c00800000000000000
+      internalID: 864986893392870509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 446
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b859b5f236025970800000000000000
+      internalID: 8742056642620250291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 446
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adc258ea85be9ec0800000000000000
+      internalID: -3558207047368258135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 446
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343b12f58296b1e20800000000000000
+      internalID: 3322364772231525187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c148fc204a21540800000000000000
+      internalID: 4977220870176250949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa09bded6b93ab00800000000000000
+      internalID: 838684852063111927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3176e60bd74c78f50800000000000000
+      internalID: 6883686599569073939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d67b63815cc4ad40800000000000000
+      internalID: 5594821287570274004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87fa910039c8a250800000000000000
+      internalID: 5956231715220027278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91fc1dfd9bf1bae0800000000000000
+      internalID: -1535169341981658721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890291926c7897c50800000000000000
+      internalID: 6663506408834146456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 318
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926b9ec598ffab80800000000000000
+      internalID: -8381207059213098337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 318
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6a0e044bc9ef430800000000000000
+      internalID: 3818661832053270249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 318
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0385f72b7b8b26940800000000000000
+      internalID: 5287992011599599664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 318
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca7360bc1c3cd500800000000000000
+      internalID: 422278558982044356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 318
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8879ecc07057a80800000000000000
+      internalID: -8469855772613310230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e5fbe33d17df20800000000000000
+      internalID: 3447256148614701710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d507dd2263506420800000000000000
+      internalID: 2621186664270595538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c9e1ecc247b8040800000000000000
+      internalID: 4650938775975664679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e947a8996cd1ccf60800000000000000
+      internalID: 8055846572275692702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21715b3a73a6dc910800000000000000
+      internalID: 1859259008376182546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53f4cd0420e46d10800000000000000
+      internalID: 2118064170225431386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f6425768af32870800000000000000
+      internalID: 8657038364134109031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe32ee1ae25ddb1f0800000000000000
+      internalID: -1027430743708654609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c1884fd758bde0800000000000000
+      internalID: -1317206274500082429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0ffe5030fddd4a0800000000000000
+      internalID: -6566847477558808375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa949bacaeac0be30800000000000000
+      internalID: 4517333536024906159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e85126c12a6cd0800000000000000
+      internalID: -2564199902987360414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 254
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ea9f900eb952110800000000000000
+      internalID: 1235565059325406754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913ea5347f53dbdb0800000000000000
+      internalID: -4774600693839633639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841da86227abd3240800000000000000
+      internalID: 4773176179518263624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020d927c0a9a03410800000000000000
+      internalID: 1454849187641937952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f26f550f0a75430800000000000000
+      internalID: 3771660167040872222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5545d13e358a2afa0800000000000000
+      internalID: -5790881092598934443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9832f613e5bd6f70800000000000000
+      internalID: 9182195202225485979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21627deb07616d670800000000000000
+      internalID: 8563056414985496082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a165e0b47e4874280800000000000000
+      internalID: -9059125996500920806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d081ed3251d8a90800000000000000
+      internalID: -7310163376358290145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c715b6bcbf94bf110800000000000000
+      internalID: 1295710663597576572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21040190925aff30800000000000000
+      internalID: 4610087949428850991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd656170616d8ee0800000000000000
+      internalID: -1257241654119272994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 190
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ccdfbef32da4820800000000000000
+      internalID: 2903364081777757218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321dfe180c6c60020800000000000000
+      internalID: 2307750389189955875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6a2cb21240435f0800000000000000
+      internalID: -777992295113644352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af15a4fae9bb7a90800000000000000
+      internalID: -7315048750955290711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d3f627e9fcb2140800000000000000
+      internalID: 4696075315895549208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc07c7d444618b40800000000000000
+      internalID: 5440740071680969951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2983dabd4474e7a10800000000000000
+      internalID: 1909041653120579730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2608a002c2db75c0800000000000000
+      internalID: -4216544895425837524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52613704eb997e940800000000000000
+      internalID: 5325394126793020965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e9e79c942cd3f0800000000000000
+      internalID: -874783972634532762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834ee0a112efe620800000000000000
+      internalID: 2805709658217399177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555ba207e5d1351a0800000000000000
+      internalID: -6822076719090191019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ddd2d92a46c7c40800000000000000
+      internalID: 5511390693579152656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 126
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332023080a1f81e10800000000000000
+      internalID: 2168748892226716211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4229301768b10fa90800000000000000
+      internalID: -7282290333222464988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ca810557c1c2410800000000000000
+      internalID: 1453568069914373268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92bcd0cc78b7e460800000000000000
+      internalID: 7270982969364099738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c1728f33caf2930800000000000000
+      internalID: 4120701523273915538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed6a4416de800d00800000000000000
+      internalID: 936905772607630817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc08800c8709dd3c0800000000000000
+      internalID: -4333148418168291124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83925d93332b741c0800000000000000
+      internalID: -4519447767959656136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446b861dac6ea8380800000000000000
+      internalID: -8968101949183838652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81dde5f0953dd7a0800000000000000
+      internalID: -6350861002804964980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e0e56a930448db0800000000000000
+      internalID: -4790633487266869688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ab9d99c00696e80800000000000000
+      internalID: -8184905240532108733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2760d6dff97e7d0800000000000000
+      internalID: -2889164725130202421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lorili_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 62
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410cbfda5bb279e80800000000000000
+      internalID: -8172014939532443628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

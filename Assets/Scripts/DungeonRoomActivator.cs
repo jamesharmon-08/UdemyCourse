@@ -13,6 +13,13 @@ public class DungeonRoomActivator : MonoBehaviour
 
     private List<GameObject> clonedEnemies = new List<GameObject>();
 
+    public bool isBossRoom;
+    public Transform bossCamPointLwr, bossCamPointUpr;
+
+    public GameObject theBoss;
+    private bool dontReactivateBoss;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +70,22 @@ public class DungeonRoomActivator : MonoBehaviour
                 }
                 doorsLocked = true;
             }
-        }
+        
+            if(isBossRoom)
+            {
+                DungeonCameraController.instance.ActivateBossRoom(bossCamPointUpr.position,bossCamPointLwr.position);
+
+                if(!dontReactivateBoss)
+                {
+                    theBoss.SetActive(true);
+                    dontReactivateBoss = true;
+                }
+                
+            }else
+            {
+                DungeonCameraController.instance.inBossRoom = false;
+            }
+    }
     }
 
     private void SpawnEnemies()

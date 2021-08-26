@@ -9,11 +9,16 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
+    public GameObject bossInfo;
+
     public Slider healthSlider;
     public Slider staminaSlider;
     public TMP_Text healthText;
     public TMP_Text staminaText;
     public TMP_Text coinsText;
+
+    public Slider bossHealth;
+    public TMP_Text bossNameText;
 
     public string mainMenuScene;
 
@@ -58,6 +63,12 @@ public class UIManager : MonoBehaviour
         
     }
 
+    public void UpdateBossHealth(int current, int total)
+    {
+        bossHealth.maxValue = total;
+        bossHealth.value = current;
+    }
+
     public void UpdateCoins()
     {
         coinsText.text = "Coins: "+GameManager.instance.currentCoins;
@@ -72,6 +83,13 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(mainMenuScene);
         Time.timeScale = 1f;
+    }
+
+    public void ActivateBoss(string bossName)
+    {
+        bossNameText.text=bossName;
+        bossInfo.SetActive(true);
+
     }
 
     public void QuitGame()

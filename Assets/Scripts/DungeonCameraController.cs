@@ -7,6 +7,9 @@ public class DungeonCameraController : MonoBehaviour
     public static DungeonCameraController instance;
     public Vector3 targetPoint;
 
+    public bool inBossRoom;
+    private Vector3 limitUpr, limitLwr;
+
     public float moveSpeed;
 
     private void Awake() {
@@ -22,9 +25,19 @@ public class DungeonCameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {   
+        if(inBossRoom)
+        {
+            targetPoint.y = Mathf.Clamp(PlayerController.instance.transform.position.y,limitLwr.y,limitUpr.y);
+        }
         transform.position = Vector3.MoveTowards(transform.position,targetPoint,moveSpeed*Time.deltaTime);    
     }
 
+    public void ActivateBossRoom(Vector3 upr, Vector3 lwr)
+    {
+        inBossRoom = true;
+        limitUpr = upr;
+        limitLwr = lwr;
+    }
 
 
 }
