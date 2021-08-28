@@ -22,7 +22,7 @@ public class BreakableObject : MonoBehaviour
 
     public void Break()
     {
-        Destroy(gameObject);
+        Destroy(gameObject);        
         AudioManager.instance.PlaySFX(3);
         if(Random.Range(0f,100f)< chanceToDrop)
         {

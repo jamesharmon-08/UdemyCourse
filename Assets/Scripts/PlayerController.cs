@@ -136,7 +136,7 @@ public class PlayerController : MonoBehaviour
                     if(Input.GetMouseButtonDown(1) && currentStamina >= spinCost)
                     {
                         weaponAnim.SetTrigger("SpinAttack");
-                        AudioManager.instance.PlaySFX(1);
+                        AudioManager.instance.PlaySFX(9);
                         currentStamina -= spinCost;
                         spinCounter = spinCooldown;
                         isSpinning = true;

@@ -30,33 +30,37 @@ public class DialogManager : MonoBehaviour
     {
         if(GameManager.instance.dialogActive)
         {
+
+
             if(Input.GetMouseButtonUp(0))
             {
                 if(!justStarted)
                 {
-                    currentLine++;
+                     currentLine++;
                     if(currentLine >= dialogLines.Length)
                     {
                         dialogBox.SetActive(false);
                         GameManager.instance.dialogActive = false;
-                    } else{
+                    } else
+                    {
                         dialogText.text = dialogLines[currentLine];
                     }
-                } else{
+                } else 
+                {
                     justStarted = false;
                 }
             }
         }   
     }
 
-    public void ShowDialog(string[] newLines)
+    public void ShowDialog(string[] newLines, bool shouldWaitforNextClick)
     {
         dialogLines = newLines;
         currentLine = 0;
         dialogText.text = dialogLines[currentLine];
 
         dialogBox.SetActive(true);
-        justStarted = true;
+        justStarted = shouldWaitforNextClick;
 
         GameManager.instance.dialogActive = true;
 

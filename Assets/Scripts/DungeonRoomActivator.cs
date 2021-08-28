@@ -51,6 +51,7 @@ public class DungeonRoomActivator : MonoBehaviour
                 doorsLocked = false;
                 lockDoors = false;
                 dontSpawnEnemies = true;
+                AudioManager.instance.PlaySFX(12);
             }
         }         
     }

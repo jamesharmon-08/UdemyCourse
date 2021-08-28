@@ -34,7 +34,14 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(int sfxNumber)
     {
+        soundEffects[1].Stop();
         soundEffects[sfxNumber].Stop();
         soundEffects[sfxNumber].Play();
+    }
+
+    public void PlayComplete()
+    {
+        soundEffects[13].Stop();
+        soundEffects[13].Play();
     }
 }
